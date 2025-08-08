@@ -133,8 +133,7 @@ with col_graf4:
             plot_bgcolor='rgba(0,0,0,0)',
             geo=dict(bgcolor='rgba(0,0,0,0)', showland=True, landcolor='rgba(240,240,240,0.40)')
         )
-    st.plotly_chart(grafico_paises, use_container_width=True)
-    st.caption('Países em cinza claro não possuem dados de salário para Cientista de Dados.')
+        st.plotly_chart(grafico_paises, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico de países.")
 
